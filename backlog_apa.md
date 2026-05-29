@@ -30,7 +30,7 @@ Desenvolver um sistema em Python (ou C) que permita cadastrar atividades, organi
 
 | ID | Task | Descrição | Estimativa |
 |------|------|-----------|------------|
-| T1.1 | Criar classe/struct `Atividade` | Campos: código, nome, início, fim, prioridade, participantes | 1h |
+| T1.1 | Criar classe/struct `Atividade` | Campos: string código, string nome, int início, int fim, int prioridade, int participantes | 1h |
 | T1.2 | Implementar função de cadastro manual | Input via terminal ou função `adicionar()` | 1h |
 | T1.3 | Implementar carga de atividades via lista/arquivo | Para os 3 conjuntos de teste | 2h |
 | T1.4 | Validação de dados | Fim > início, prioridade ≥ 0, etc. | 1h |
