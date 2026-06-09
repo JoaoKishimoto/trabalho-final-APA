@@ -1,0 +1,20 @@
+{"codigo": "B011", "nome": "Demo para cliente", "inicio": 1600, "fim": 1800, "prioridade": 3, "participantes": 7}
+{"codigo": "B003", "nome": "Revisao de PR", "inicio": 1000, "fim": 1200, "prioridade": 1, "participantes": 2}
+{"codigo": "B017", "nome": "Relatorio gerencial", "inicio": 1000, "fim": 1100, "prioridade": 1, "participantes": 1}
+{"codigo": "B007", "nome": "Design de interface", "inicio": 900, "fim": 1200, "prioridade": 2, "participantes": 2}
+{"codigo": "B020", "nome": "Planejamento do proximo sprint", "inicio": 830, "fim": 930, "prioridade": 2, "participantes": 5}
+{"codigo": "B014", "nome": "Revisao de metricas", "inicio": 1700, "fim": 1800, "prioridade": 1, "participantes": 2}
+{"codigo": "B009", "nome": "Refatoracao de modulo", "inicio": 800, "fim": 1000, "prioridade": 1, "participantes": 2}
+{"codigo": "B016", "nome": "Retrospectiva", "inicio": 1500, "fim": 1700, "prioridade": 2, "participantes": 8}
+{"codigo": "B002", "nome": "Analise de requisitos", "inicio": 1100, "fim": 1300, "prioridade": 3, "participantes": 4}
+{"codigo": "B019", "nome": "Revisao de documentacao", "inicio": 1730, "fim": 1900, "prioridade": 1, "participantes": 2}
+{"codigo": "B015", "nome": "Configuracao de CI/CD", "inicio": 800, "fim": 830, "prioridade": 2, "participantes": 2}
+{"codigo": "B013", "nome": "Teste de integracao", "inicio": 1200, "fim": 1400, "prioridade": 2, "participantes": 3}
+{"codigo": "B004", "nome": "Sprint planning", "inicio": 1600, "fim": 1730, "prioridade": 3, "participantes": 6}
+{"codigo": "B001", "nome": "Stand-up diario", "inicio": 1400, "fim": 1500, "prioridade": 2, "participantes": 8}
+{"codigo": "B008", "nome": "Revisao de seguranca", "inicio": 1800, "fim": 1930, "prioridade": 3, "participantes": 3}
+{"codigo": "B018", "nome": "Atualizacao de dependencias", "inicio": 1300, "fim": 1500, "prioridade": 0, "participantes": 1}
+{"codigo": "B006", "nome": "Reuniao com cliente", "inicio": 1500, "fim": 1600, "prioridade": 3, "participantes": 3}
+{"codigo": "B012", "nome": "Analise de bugs", "inicio": 1900, "fim": 2000, "prioridade": 2, "participantes": 3}
+{"codigo": "B010", "nome": "Homologacao", "inicio": 1400, "fim": 1600, "prioridade": 2, "participantes": 4}
+{"codigo": "B005", "nome": "Treinamento de equipe", "inicio": 1300, "fim": 1600, "prioridade": 1, "participantes": 10}

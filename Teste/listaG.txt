@@ -1,0 +1,50 @@
+{"codigo": "C021", "nome": "Demo para cliente", "inicio": 1800, "fim": 1930, "prioridade": 3, "participantes": 8}
+{"codigo": "C048", "nome": "Documentacao pos-incidente", "inicio": 1000, "fim": 1200, "prioridade": 2, "participantes": 2}
+{"codigo": "C013", "nome": "Revisao de seguranca", "inicio": 1300, "fim": 1600, "prioridade": 3, "participantes": 3}
+{"codigo": "C003", "nome": "Revisao de emails", "inicio": 900, "fim": 1200, "prioridade": 0, "participantes": 1}
+{"codigo": "C037", "nome": "Backup de dados", "inicio": 730, "fim": 800, "prioridade": 2, "participantes": 1}
+{"codigo": "C044", "nome": "Revisao de alertas", "inicio": 1300, "fim": 1400, "prioridade": 2, "participantes": 1}
+{"codigo": "C015", "nome": "Homologacao parcial", "inicio": 800, "fim": 830, "prioridade": 2, "participantes": 4}
+{"codigo": "C029", "nome": "Migracao de dados", "inicio": 800, "fim": 900, "prioridade": 3, "participantes": 2}
+{"codigo": "C041", "nome": "Monitoramento pos-deploy", "inicio": 1030, "fim": 1200, "prioridade": 3, "participantes": 2}
+{"codigo": "C008", "nome": "Revisao de arquitetura", "inicio": 830, "fim": 1000, "prioridade": 3, "participantes": 4}
+{"codigo": "C047", "nome": "Encerramento de incidente", "inicio": 1830, "fim": 1900, "prioridade": 3, "participantes": 3}
+{"codigo": "C022", "nome": "Teste de integracao", "inicio": 900, "fim": 1000, "prioridade": 2, "participantes": 3}
+{"codigo": "C006", "nome": "Estimativa de tarefas", "inicio": 1100, "fim": 1300, "prioridade": 2, "participantes": 4}
+{"codigo": "C039", "nome": "Revisao final de release", "inicio": 1200, "fim": 1400, "prioridade": 3, "participantes": 4}
+{"codigo": "C025", "nome": "Configuracao de CI/CD", "inicio": 1100, "fim": 1300, "prioridade": 2, "participantes": 2}
+{"codigo": "C016", "nome": "Mentoria de desenvolvedor", "inicio": 1000, "fim": 1130, "prioridade": 1, "participantes": 2}
+{"codigo": "C033", "nome": "Deploy em homologacao", "inicio": 1000, "fim": 1100, "prioridade": 2, "participantes": 2}
+{"codigo": "C042", "nome": "Analise de performance", "inicio": 830, "fim": 1030, "prioridade": 2, "participantes": 2}
+{"codigo": "C019", "nome": "Revisao de design", "inicio": 1730, "fim": 1900, "prioridade": 2, "participantes": 3}
+{"codigo": "C049", "nome": "Revisao de seguranca noturna", "inicio": 1400, "fim": 1600, "prioridade": 2, "participantes": 1}
+{"codigo": "C002", "nome": "Stand-up diario", "inicio": 1200, "fim": 1300, "prioridade": 2, "participantes": 10}
+{"codigo": "C043", "nome": "Hotfix de producao", "inicio": 1600, "fim": 1800, "prioridade": 3, "participantes": 3}
+{"codigo": "C031", "nome": "Criacao de tickets", "inicio": 1330, "fim": 1500, "prioridade": 0, "participantes": 1}
+{"codigo": "C009", "nome": "Treinamento de equipe", "inicio": 1800, "fim": 1930, "prioridade": 1, "participantes": 12}
+{"codigo": "C035", "nome": "Revisao de documentacao", "inicio": 1400, "fim": 1600, "prioridade": 1, "participantes": 2}
+{"codigo": "C050", "nome": "Fechamento do dia", "inicio": 1600, "fim": 1700, "prioridade": 1, "participantes": 2}
+{"codigo": "C018", "nome": "Refatoracao de modulo", "inicio": 2030, "fim": 2130, "prioridade": 1, "participantes": 2}
+{"codigo": "C004", "nome": "Analise de requisitos", "inicio": 1600, "fim": 1730, "prioridade": 3, "participantes": 5}
+{"codigo": "C040", "nome": "Deploy em producao", "inicio": 2200, "fim": 2230, "prioridade": 3, "participantes": 2}
+{"codigo": "C007", "nome": "Sprint planning", "inicio": 1400, "fim": 1500, "prioridade": 3, "participantes": 7}
+{"codigo": "C038", "nome": "Planejamento do proximo sprint", "inicio": 1700, "fim": 1800, "prioridade": 2, "participantes": 6}
+{"codigo": "C010", "nome": "Reuniao com cliente", "inicio": 1700, "fim": 1800, "prioridade": 3, "participantes": 3}
+{"codigo": "C034", "nome": "Atualizacao de dependencias", "inicio": 2000, "fim": 2200, "prioridade": 0, "participantes": 1}
+{"codigo": "C012", "nome": "Workshop de boas praticas", "inicio": 1500, "fim": 1700, "prioridade": 1, "participantes": 8}
+{"codigo": "C011", "nome": "Analise de dados", "inicio": 1130, "fim": 1330, "prioridade": 2, "participantes": 2}
+{"codigo": "C046", "nome": "Notificacao de stakeholders", "inicio": 1500, "fim": 1600, "prioridade": 2, "participantes": 1}
+{"codigo": "C045", "nome": "Rollback preventivo", "inicio": 2330, "fim": 2359, "prioridade": 3, "participantes": 2}
+{"codigo": "C017", "nome": "Almoco com stakeholders", "inicio": 1630, "fim": 1800, "prioridade": 2, "participantes": 5}
+{"codigo": "C028", "nome": "Retrospectiva de sprint", "inicio": 2000, "fim": 2100, "prioridade": 2, "participantes": 9}
+{"codigo": "C014", "nome": "Design de interface", "inicio": 1930, "fim": 2030, "prioridade": 2, "participantes": 2}
+{"codigo": "C024", "nome": "Revisao de metricas", "inicio": 1530, "fim": 1700, "prioridade": 1, "participantes": 2}
+{"codigo": "C032", "nome": "Relatorio gerencial", "inicio": 2300, "fim": 2359, "prioridade": 1, "participantes": 2}
+{"codigo": "C020", "nome": "Analise de bugs criticos", "inicio": 1430, "fim": 1600, "prioridade": 3, "participantes": 3}
+{"codigo": "C030", "nome": "Suporte tecnico urgente", "inicio": 2100, "fim": 2200, "prioridade": 3, "participantes": 2}
+{"codigo": "C027", "nome": "Revisao de logs", "inicio": 2130, "fim": 2230, "prioridade": 1, "participantes": 1}
+{"codigo": "C001", "nome": "Abertura do dia", "inicio": 1900, "fim": 2000, "prioridade": 1, "participantes": 3}
+{"codigo": "C026", "nome": "Teste de carga", "inicio": 1900, "fim": 2000, "prioridade": 2, "participantes": 2}
+{"codigo": "C023", "nome": "Planejamento de capacidade", "inicio": 2200, "fim": 2300, "prioridade": 2, "participantes": 4}
+{"codigo": "C005", "nome": "Revisao de PR", "inicio": 2230, "fim": 2330, "prioridade": 2, "participantes": 2}
+{"codigo": "C036", "nome": "Code freeze", "inicio": 2100, "fim": 2200, "prioridade": 3, "participantes": 3}
