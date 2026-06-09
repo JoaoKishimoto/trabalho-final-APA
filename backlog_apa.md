@@ -24,19 +24,6 @@ Desenvolver um sistema em Python (ou C) que permita cadastrar atividades, organi
 
 ## 📚 STORIES e TASKS
 
-### 🟦 STORY 1 — Modelagem de Dados e Cadastro de Atividades
-
-> Como usuário, quero cadastrar atividades com seus atributos para que o sistema possa processá-las.
-
-| ID | Task | Descrição | Estimativa |
-|------|------|-----------|------------|
-| T1.1 | Criar classe/struct `Atividade` | Campos: string código, string nome, int início, int fim, int prioridade, int participantes | 1h |
-| T1.2 | Implementar função de cadastro manual | Input via terminal ou função `adicionar()` | 1h |
-| T1.3 | Implementar carga de atividades via lista/arquivo | Para os 3 conjuntos de teste | 2h |
-| T1.4 | Validação de dados | Fim > início, prioridade ≥ 0, etc. | 1h |
-
----
-
 ### 🟦 STORY 3 — Algoritmo Guloso Clássico
 
 > Como sistema, quero selecionar o maior número de atividades sem conflito usando estratégia gulosa.
