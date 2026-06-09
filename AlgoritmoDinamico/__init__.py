@@ -22,7 +22,7 @@ def montar_tabela(lista):
     n = len(lista)
     tabela = [0] * (n + 1)
     for j in range(1, n + 1):
-        peso = lista[j - 1].get('prioridade')
+        peso = lista[j - 1].get('prioridade') * lista[j - 1].get('participantes')
         tabela[j] = max(peso + tabela[p(lista, j - 1)], tabela[j - 1])
     return tabela
 
@@ -32,7 +32,7 @@ def reconstruir(lista, tabela, j=None):
         j = len(lista)
     if j == 0:
         return []
-    peso = lista[j - 1].get('prioridade')
+    peso = lista[j - 1].get('prioridade') * lista[j - 1].get('participantes')
     pj = p(lista, j - 1)
     if peso + tabela[pj] >= tabela[j - 1]:
         return reconstruir(lista, tabela, pj) + [lista[j - 1]]

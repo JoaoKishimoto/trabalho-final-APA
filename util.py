@@ -40,15 +40,15 @@ def compare_algoriths(lista):
     (selecionadas_G, quantidade_G, soma_prioridades_G, soma_participantes_G), tempo_G = AlgoritmoGuloso.executar_com_tempo(lista)
     (selecionadas_D, quantidade_D, soma_prioridades_D, soma_participantes_D), tempo_D = AlgoritmoDinamico.executar_com_tempo(lista)
 
-    print_table(['Algoritmo', 'n de Atividades','Soma Prioridades', 'Soma Participantes', 'Tempo (ms)'], [
-        ['Guloso', quantidade_G, soma_prioridades_G, soma_participantes_G, format((tempo_G * 1000), ".3f")],
-        ['Dinâmico', quantidade_D, soma_prioridades_D, soma_participantes_D, format((tempo_D * 1000), ".3f")]
+    print_table(['Algoritmo', 'n de Atividades','Soma Pesos', 'Tempo (ms)'], [
+        ['Guloso', quantidade_G, soma_prioridades_G*soma_participantes_G, format((tempo_G * 1000), ".3f")],
+        ['Dinâmico', quantidade_D, soma_prioridades_D*soma_participantes_D, format((tempo_D * 1000), ".3f")]
     ])
     print()
-    if (soma_prioridades_D > soma_prioridades_G):
-        print(f"O algoritmo Dinâmico foi melhor na seleção do cronograma por {soma_prioridades_D - soma_prioridades_G} pontos de prioridade")
+    if (soma_prioridades_D * soma_participantes_D > soma_prioridades_G * soma_participantes_G):
+        print(f"O algoritmo Dinâmico foi melhor na seleção do cronograma por {soma_prioridades_D * soma_participantes_D - soma_prioridades_G * soma_participantes_G} pontos de peso")
     else:
-        print(f"O algoritmo Guloso foi melhor na seleção do cronograma por {soma_prioridades_G - soma_prioridades_D} pontos de prioridade")
+        print(f"O algoritmo Guloso foi melhor na seleção do cronograma por {soma_prioridades_G * soma_participantes_G - soma_prioridades_D * soma_participantes_D} pontos de peso")
     if (tempo_D > tempo_G):
         print(f"O algoritmo Guloso foi melhor no tempo por {format(((tempo_D - tempo_G) * 1000), ".3f")}ms\n")
     else:
