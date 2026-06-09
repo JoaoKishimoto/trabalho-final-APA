@@ -1,7 +1,7 @@
 import os
 import json
 import Modelagem
-from clear import clear_cmd
+from util import clear_cmd
 
 def adicionar_atividades(lista):
     while True:

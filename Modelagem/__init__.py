@@ -58,12 +58,9 @@ def adicionar(codigo, nome, inicio, fim, prioridade, participantes):
 # Exibe todas as atividades da lista na tela
 def listar(lista):
     if not lista:
-        print("Nenhuma atividade cadastrada.")
+        print("Nenhuma atividade cadastrada.\n")
         return
     for a in lista:
         print(a)
     print(f"Total: {len(lista)}\n")
-
-if __name__ == "__main__":
-    menu()
 

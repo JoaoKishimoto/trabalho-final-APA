@@ -2,7 +2,8 @@ import os
 import Modelagem
 from adicionar_atividades import adicionar_atividades
 from organizar_atividades import organizar_atividades
-from clear import clear_cmd
+from selecao_atividades import selecao_atividades
+from util import clear_cmd
 
 def start():
     lista_atividades = []
@@ -12,10 +13,13 @@ def start():
         print("1 - Adicionar atividades")
         print("2 - Organizar as atividades")
         print("3 - Mostrar as atividades")
-        print("4 - Sair")
+        print("4 - Seleção de atividades")
+        print("0 - Sair")
         resposta = input("O que você deseja fazer?\n")
         clear_cmd()
         match(resposta):
+            case('0'):
+                break
             case('1'):
                 lista_atividades = adicionar_atividades(lista_atividades)
                 continue
@@ -26,7 +30,8 @@ def start():
                 Modelagem.listar(lista_atividades)
                 continue
             case('4'):
-                break
+                selecao_atividades(lista_atividades)
+                continue
             case():
                 continue
 
