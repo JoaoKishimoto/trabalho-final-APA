@@ -3,10 +3,10 @@ import math
 # Algoritmo de merge-sort sobre o array olhando a chave `element` de cada item
 # que deve ser passado em formato de string.
 def mergeSort(array, element):
-    if len(array) == 1:
+    size = len(array)
+    if size <= 1:
         return array
     else:
-        size = len(array)
         size = math.floor(size/2)
         array = funnel(mergeSort(array[:size], element), mergeSort(array[size:], element), element)
     return array

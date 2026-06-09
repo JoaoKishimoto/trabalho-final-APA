@@ -11,6 +11,22 @@ class Atividade:
     def __str__(self):
         return f"[{self.codigo}] {self.nome} | Inicio: {self.inicio}h Fim: {self.fim}h | Prioridade: {self.prioridade} | Participantes: {self.participantes}"
 
+    def get(self, atributo):
+        match(atributo):
+            case("codigo"):
+                return self.codigo
+            case("nome"):
+                return self.nome
+            case("inicio"):
+                return self.inicio
+            case("fim"):
+                return self.fim
+            case("prioridade"):
+                return self.prioridade
+            case("participantes"):
+                return self.participantes
+            case():
+                return
 
 # Verifica se os dados da atividade sao validos antes de salvar
 def validar(codigo, nome, inicio, fim, prioridade, participantes):
@@ -46,5 +62,4 @@ def listar(lista):
         return
     for a in lista:
         print(a)
-    print(f"Total: {len(lista)}")
-    #TODO: retirar e colocar no menu
+    print(f"Total: {len(lista)}\n")
