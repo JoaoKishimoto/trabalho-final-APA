@@ -63,3 +63,7 @@ def listar(lista):
     for a in lista:
         print(a)
     print(f"Total: {len(lista)}\n")
+
+if __name__ == "__main__":
+    menu()
+
