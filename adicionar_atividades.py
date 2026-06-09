@@ -54,6 +54,7 @@ def add_input(lista):
     lista.append(Modelagem.Atividade(codigo, nome, inicio, fim, prioridade, participantes))
     again = str.capitalize(input("Atividade adicionada! Adicionar mais uma? (s/N)\n"))
     if again == "S": add_input(lista)
+    clear_cmd()
     return lista
 
 def add_txt(lista):

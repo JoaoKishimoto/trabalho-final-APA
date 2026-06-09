@@ -1,6 +1,6 @@
 import AlgoritmoGuloso
 import AlgoritmoDinamico
-from util import clear_cmd, exibir_resultado, print_table
+from util import clear_cmd, exibir_resultado, compare_algoriths
 
 def selecao_atividades(lista):
     while True:
@@ -22,20 +22,7 @@ def selecao_atividades(lista):
                 exibir_resultado(selecionadas, quantidade, soma_prioridades, soma_participantes, tempo)
                 return
             case('3'):
-                (selecionadas_G, quantidade_G, soma_prioridades_G, soma_participantes_G), tempo_G = AlgoritmoGuloso.executar_com_tempo(lista)
-                (selecionadas_D, quantidade_D, soma_prioridades_D, soma_participantes_D), tempo_D = AlgoritmoDinamico.executar_com_tempo(lista)
-                print_table(['Algoritmo', 'Soma Prioridades', 'Soma Participantes', 'Tempo'], [
-                    ['Guloso', soma_prioridades_G, soma_participantes_G, tempo_G],
-                    ['Dinâmico', soma_prioridades_D, soma_participantes_D, tempo_D]
-                ])
-                if (soma_prioridades_D > soma_prioridades_G):
-                    print(f"O algoritmo Dinâmico foi melhor na seleção do cronograma por {soma_prioridades_D - soma_prioridades_G} pontos de prioridade")
-                else:
-                    print(f"O algoritmo Guloso foi melhor na seleção do cronograma por {soma_prioridades_G - soma_prioridades_D} pontos de prioridade")
-                if (tempo_D > tempo_G):
-                    print(f"O algoritmo Guloso foi melhor no tempo por {tempo_D - tempo_G}s")
-                else:
-                    print(f"O algoritmo Dinâmico foi melhor no tempo por {tempo_G - tempo_D}s")
+                compare_algoriths(lista)
                 return
             case():
                 continue
