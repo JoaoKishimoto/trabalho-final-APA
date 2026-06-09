@@ -8,7 +8,7 @@ def adicionar_atividades(lista):
         print("Gerenciador de Tarefas - Adicionar Atividade")
         print("1 - Input (ideal para 1 ou 2 atividades)")
         print("2 - Arquivo .txt (ideal para mais atividades)")
-        print("3 - Voltar")
+        print("0 - Voltar")
         resposta = int(input("Como você deseja adicionar a atividade?\n"))
         clear_cmd()
         match(resposta):
@@ -16,7 +16,7 @@ def adicionar_atividades(lista):
                 return add_input(lista)
             case(2):
                 return add_txt(lista)
-            case(3):
+            case(0):
                 return lista
             case():
                 print('input inválido')
