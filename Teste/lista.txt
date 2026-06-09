@@ -1,0 +1,6 @@
+{codigo: "A001", nome: "Reuniao de planejamento", inicio: 0800, fim: 1000, prioridade: 1, participantes: 5}
+{codigo: "A002", nome: "Desenvolvimento", inicio: 900, fim: 1700, prioridade: 2, participantes: 3}
+{codigo: "A003", nome: "Revisao de codigo", inicio: 1400, fim: 1600, prioridade: 1, participantes: 4}
+{codigo: "A004", nome: "Deploy", inicio: 1600, fim: 1800, prioridade: 3, participantes: 2}
+{codigo: "A005", nome: "Testes", inicio: 1000, fim: 1200, prioridade: 2, participantes: 3}
+{codigo: "A006", nome: "Documentacao", inicio: 1300, fim: 1500, prioridade: 0, participantes: 1}
