@@ -2,6 +2,7 @@ import os
 import Modelagem
 from adicionar_atividades import adicionar_atividades
 from organizar_atividades import organizar_atividades
+from pg_busca import pg_busca
 from selecao_atividades import selecao_atividades
 from comp_testes import comp_testes
 from util import clear_cmd
@@ -15,8 +16,8 @@ def start():
         print("2 - Organizar as atividades")
         print("3 - Mostrar as atividades")
         print("4 - Busca")
-        print("4 - Seleção de atividades")
-        print("5 - Comparação e testes")
+        print("5 - Seleção de atividades")
+        print("6 - Comparação e testes")
         print("0 - Sair")
         resposta = input("O que você deseja fazer?\n")
         clear_cmd()
@@ -33,9 +34,11 @@ def start():
                 Modelagem.listar(lista_atividades)
                 continue
             case('4'):
+                pg_busca(lista_atividades)
+            case('5'):
                 selecao_atividades(lista_atividades)
                 continue
-            case('5'):
+            case('6'):
                 comp_testes()
             case():
                 continue
